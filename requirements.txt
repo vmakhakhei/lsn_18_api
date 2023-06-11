@@ -2,3 +2,4 @@ requests
 pytest~=7.2.1
 voluptuous
 pytest-voluptuous
+allure-pytest

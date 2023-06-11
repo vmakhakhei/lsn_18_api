@@ -1,5 +1,7 @@
 from voluptuous import Schema, ALLOW_EXTRA, PREVENT_EXTRA
 
+
+
 user_schema = Schema(
     {"id": int, "email": str, "first_name": str, "last_name": str, "avatar": str},
     extra=PREVENT_EXTRA,
